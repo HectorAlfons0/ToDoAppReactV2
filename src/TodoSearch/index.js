@@ -1,8 +1,7 @@
 import React from 'react';
 import './TodoSearch.css';
-import { EmptySearchResults } from '../EmptySearchResults';
 
-function TodoSearch({ searchValue, setSearchValue, searchedTodos }) {
+function TodoSearch({ searchValue, setSearchValue, loading }) {
   
   const onSearchValueChange = (event) => {
     console.log(event.target.value);
@@ -16,10 +15,8 @@ function TodoSearch({ searchValue, setSearchValue, searchedTodos }) {
         placeholder="Cebolla"
         value={searchValue}
         onChange={onSearchValueChange}
+        disabled = {loading}
       />
-      {searchValue && searchedTodos.length === 0 && (
-        <EmptySearchResults searchText={searchValue} />
-      )}
     </div>
   );
 }
