@@ -69,3 +69,9 @@ textarea:focus {
 .TodoForm-button--cancel {
   background: transparent;
 }
+.TodoForm-error {
+  color: red; /* Cambia el color del texto a rojo */
+  font-size: 0.9em; /* Tamaño de fuente más pequeño */
+  margin-top: 8px; /* Añade espacio entre el mensaje y el textarea */
+  text-align: left; /* Alineación a la izquierda */
+}

@@ -11,6 +11,7 @@ function useTodos() {
   } = useLocalStorage('TODOS_V1', []);
   const [searchValue, setSearchValue] = React.useState('');
   const [openModal, setOpenModal] = React.useState(false);
+  const [errorMessage, setErrorMessage] = React.useState(''); // Nuevo estado para el mensaje de error
 
   const completedTodos = todos.filter(todo => !!todo.completed).length;
   const totalTodos = todos.length;
@@ -28,6 +29,11 @@ function useTodos() {
   }
 
   const addTodo = (text) => {
+    if (!text.trim()) { // Verificar si el texto está vacío o solo tiene espacios
+      setErrorMessage('No puedes añadir un TODO vacío'); // Establecer mensaje de error
+      return;
+    }
+    setErrorMessage(''); // Limpiar mensaje de error si la adición es exitosa
     const newTodos = [...todos];
     newTodos.push({
       completed: false,
