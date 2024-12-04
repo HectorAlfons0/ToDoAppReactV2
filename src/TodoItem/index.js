@@ -7,8 +7,8 @@ function TodoItem(props) {
   return (
     <li className="TodoItem">
       <CompleteIcon
-        completed={props.completed}
-        onComplete={props.onComplete}
+        completed={props.completed} // Pasar el estado correcto
+        onToggle={() => props.completeTodo(props.text)} // Alternar estado
       />
       <p
         className={`TodoItem-p ${props.completed && 'TodoItem-p--complete'}`}

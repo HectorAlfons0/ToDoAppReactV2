@@ -51,7 +51,7 @@ function App() {
             key={todo.text}
             text={todo.text}
             completed={todo.completed}
-            onComplete={() => completeTodo(todo.text)}
+            completeTodo={completeTodo} // Pasar función para alternar completado
             onDelete={() => deleteTodo(todo.text)}
           />
         ))}
