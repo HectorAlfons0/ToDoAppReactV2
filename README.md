@@ -1,7 +1,7 @@
 # ToDo App 📝
 
 ¡Bienvenido a **ToDo App**! 🚀  
-Esta es una aplicación sencilla para gestionar tus tareas diarias. Fue desarrollada como un proyecto de aprendizaje utilizando **React**, con el objetivo de entender mejor su funcionamiento y el manejo del estado en componentes.
+Esta es una aplicación sencilla para gestionar tus tareas diarias. Fue desarrollada como un proyecto de aprendizaje utilizando **React**, con el objetivo de entender mejor su funcionamiento y el manejo del estado en componentes. En esta segunda versión se ha implementado Patrones de render y Composición.
 
 ## Funcionalidades 🌟
 
