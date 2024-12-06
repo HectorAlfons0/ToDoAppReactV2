@@ -1,3 +1,25 @@
+# ToDo App 📝
+
+¡Bienvenido a **ToDo App**! 🚀  
+Esta es una aplicación sencilla para gestionar tus tareas diarias. Fue desarrollada como un proyecto de aprendizaje utilizando **React**, con el objetivo de entender mejor su funcionamiento y el manejo del estado en componentes.
+
+## Funcionalidades 🌟
+
+- **Crear tareas**: Agrega nuevas tareas para organizar tu día.
+- **Filtrar tareas**: Encuentra tareas específicas de manera rápida.
+- **Eliminar tareas**: Borra las tareas completadas o que ya no sean necesarias.
+- **Estado de las tareas**: Marca tareas como completadas o pendientes.
+
+## Tecnologías utilizadas 💻
+
+- **React**: Biblioteca para construir la interfaz de usuario.
+- **React Context**: Para manejar el estado global de la aplicación.
+- **CSS**: Para estilizar los componentes y darles un diseño limpio y funcional.
+
+## Con este link puedes ir a ver el proyecto! 📑
+
+https://hectoralfonso22.github.io/ToDoAppReactV2/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
