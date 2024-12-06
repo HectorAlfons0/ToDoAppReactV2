@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/HectorAlfons0/ToDoAppReactV2/static/css/main.7a4de123.chunk.css",
-    "main.js": "/HectorAlfons0/ToDoAppReactV2/static/js/main.3529efcb.chunk.js",
-    "main.js.map": "/HectorAlfons0/ToDoAppReactV2/static/js/main.3529efcb.chunk.js.map",
-    "runtime-main.js": "/HectorAlfons0/ToDoAppReactV2/static/js/runtime-main.c3c58de1.js",
-    "runtime-main.js.map": "/HectorAlfons0/ToDoAppReactV2/static/js/runtime-main.c3c58de1.js.map",
-    "static/js/2.970d1c2f.chunk.js": "/HectorAlfons0/ToDoAppReactV2/static/js/2.970d1c2f.chunk.js",
-    "static/js/2.970d1c2f.chunk.js.map": "/HectorAlfons0/ToDoAppReactV2/static/js/2.970d1c2f.chunk.js.map",
-    "index.html": "/HectorAlfons0/ToDoAppReactV2/index.html",
-    "static/css/main.7a4de123.chunk.css.map": "/HectorAlfons0/ToDoAppReactV2/static/css/main.7a4de123.chunk.css.map",
-    "static/js/2.970d1c2f.chunk.js.LICENSE.txt": "/HectorAlfons0/ToDoAppReactV2/static/js/2.970d1c2f.chunk.js.LICENSE.txt",
-    "static/media/check.fa4fb594.svg": "/HectorAlfons0/ToDoAppReactV2/static/media/check.fa4fb594.svg",
-    "static/media/delete.331149da.svg": "/HectorAlfons0/ToDoAppReactV2/static/media/delete.331149da.svg"
+    "main.css": "/ToDoAppV2/static/css/main.7a4de123.chunk.css",
+    "main.js": "/ToDoAppV2/static/js/main.3529efcb.chunk.js",
+    "main.js.map": "/ToDoAppV2/static/js/main.3529efcb.chunk.js.map",
+    "runtime-main.js": "/ToDoAppV2/static/js/runtime-main.ee45aeb3.js",
+    "runtime-main.js.map": "/ToDoAppV2/static/js/runtime-main.ee45aeb3.js.map",
+    "static/js/2.970d1c2f.chunk.js": "/ToDoAppV2/static/js/2.970d1c2f.chunk.js",
+    "static/js/2.970d1c2f.chunk.js.map": "/ToDoAppV2/static/js/2.970d1c2f.chunk.js.map",
+    "index.html": "/ToDoAppV2/index.html",
+    "static/css/main.7a4de123.chunk.css.map": "/ToDoAppV2/static/css/main.7a4de123.chunk.css.map",
+    "static/js/2.970d1c2f.chunk.js.LICENSE.txt": "/ToDoAppV2/static/js/2.970d1c2f.chunk.js.LICENSE.txt",
+    "static/media/check.fa4fb594.svg": "/ToDoAppV2/static/media/check.fa4fb594.svg",
+    "static/media/delete.331149da.svg": "/ToDoAppV2/static/media/delete.331149da.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c3c58de1.js",
+    "static/js/runtime-main.ee45aeb3.js",
     "static/js/2.970d1c2f.chunk.js",
     "static/css/main.7a4de123.chunk.css",
     "static/js/main.3529efcb.chunk.js"
